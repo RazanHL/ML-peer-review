@@ -82,11 +82,11 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config('DATABASE_NAME'),
-        'USER': config('DATABASE_USER'), 
-        'PASSWORD': config('DATABASE_PASSWORD'),
-        'HOST': config('DATABASE_HOST'),
-        'PORT': config('DATABASE_PORT'),
+        'NAME': config('REMOTEDATABASE_NAME'),
+        'USER': config('REMOTEDATABASE_USER'), 
+        'PASSWORD': config('REMOTEDATABASE_PASSWORD'),
+        'HOST': config('REMOTEDATABASE_HOST'),
+        'PORT': config('REMOTEDATABASE_PORT'),
     }
 }
 
